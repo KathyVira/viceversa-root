@@ -6,10 +6,14 @@
 </head>
 <body>
 <h1>Vice Versa</h1>
-<textarea cols="50" rows="10" name="usertext"></textarea>
+<form action="{% url 'reverse' %}">
+
+
+<textarea cols="50" rows="10" name="usertext" ></textarea>
 <p>
     <input value="Reverse" type="submit">
 </p>
+</form>
 
 <h2>Katy</h2>
 </body>
